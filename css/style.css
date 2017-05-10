@@ -1,0 +1,60 @@
+.pg-canvas {
+  position: fixed;
+}
+p,
+span {
+  font-family: 'Times New Roman', serif !important;
+}
+html {
+  font-size: 20px;
+}
+html,
+body,
+#container {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  font: 20px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+#container {
+  position: relative;
+}
+#main {
+  position: absolute;
+  width: 100%;
+  top: 300px;
+  text-align: center;
+}
+.pg-canvas {
+  position: fixed;
+}
+.slogan {
+  font-size: 60px;
+  z-index: 99;
+}
+.slogan a {
+  color: #000;
+  text-decoration: none;
+}
+.slogan a:hover {
+  color: #333;
+}
+#copyright {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.6rem;
+  color: #bbb;
+  text-align: center;
+}
+#copyright a {
+  color: #bbb;
+  text-decoration: none;
+}
+.copytext {
+  padding: 10px 0;
+}
